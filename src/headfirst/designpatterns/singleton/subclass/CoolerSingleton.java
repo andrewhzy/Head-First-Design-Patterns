@@ -2,7 +2,7 @@ package headfirst.designpatterns.singleton.subclass;
 
 public class CoolerSingleton extends Singleton {
 	// useful instance variables here
-	public static Singleton uniqueInstance=new CoolerSingleton();
+	protected static Singleton uniqueInstance;
  
 	private CoolerSingleton() {
 		super();
